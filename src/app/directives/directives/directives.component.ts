@@ -10,7 +10,7 @@ export class DirectivesComponent implements OnInit {
   isAuthorized: boolean = true;
   mentors: string[] = ['Ower', 'Matt', 'Sahin'];
 
-  constructor(private router: Router){}
+  constructor(private router: Router){} // Use constructor for only dependency injection.....
 
   ngOnInit(): void {
     console.log(' This hook is used to initilize fields... Constructor should be left empty');
