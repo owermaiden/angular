@@ -10,7 +10,7 @@ export class DirectivesComponent {
   isAuthorized: boolean = true;
   mentors: string[] = ['Ower', 'Matt', 'Sahin'];
 
-  // constructor(private router: Router){}
+  constructor(private router: Router){}
 
   ngOnInit(): void {
     console.log(' This hook is used to initilize fields... Constructor should be left empty');
@@ -20,7 +20,7 @@ export class DirectivesComponent {
     this.isAuthorized = !this.isAuthorized;
   }
 
-  // onNavigate(){
-  //   this.router.navigate(['bindings']);
-  // }
+  onNavigate(){
+    this.router.navigate(['bindings']);
+  }
 }
