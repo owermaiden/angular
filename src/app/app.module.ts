@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { TypescriptComponent } from './common/typescript/typescript.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TypescriptComponent
   ],
   imports: [
     BrowserModule
