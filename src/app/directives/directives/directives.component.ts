@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
   templateUrl: './directives.component.html',
   styleUrls: ['./directives.component.css']
 })
-export class DirectivesComponent {
+export class DirectivesComponent implements OnInit {
   isAuthorized: boolean = true;
   mentors: string[] = ['Ower', 'Matt', 'Sahin'];
 
