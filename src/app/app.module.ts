@@ -8,6 +8,8 @@ import { FormsModule } from '@angular/forms';
 import { DirectivesComponent } from './directives/directives/directives.component';
 import { RouterModule, Routes } from '@angular/router';
 import { BindingComponent } from './binding/binding/binding.component';
+import { ParentComponent } from './parentChild/parent/parent.component';
+import { ChildComponent } from './parentChild/child/child.component';
 
 const routes: Routes = [ 
 
@@ -22,7 +24,9 @@ const routes: Routes = [
     AppComponent,
     TypescriptComponent,
     BindingComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
