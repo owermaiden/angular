@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { TypescriptComponent } from './common/typescript/typescript.component';
 import { BindingComponent } from './binding/binding/binding.component';
 import { FormsModule } from '@angular/forms';
+import { DirectivesComponent } from './directives/directives/directives.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TypescriptComponent,
-    BindingComponent
+    BindingComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,
